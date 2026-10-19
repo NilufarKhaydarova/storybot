@@ -1,0 +1,70 @@
+[
+  {
+    "name": "gpt-image-2",
+    "provider": "openai",
+    "model": "gpt-image-2",
+    "sheet_size": "1536x1024",
+    "page_size": "2048x1024",
+    "quality": "high",
+    "usd_per_image": 0.21,
+    "note": "OpenAI direct. Up to 16 reference images."
+  },
+  {
+    "name": "nano-banana-pro",
+    "provider": "gemini",
+    "model": "gemini-3-pro-image-preview",
+    "aspect_ratio": "16:9",
+    "image_size": "2K",
+    "usd_per_image": 0.134,
+    "note": "Google direct. Up to 14 reference images (5 people)."
+  },
+  {
+    "name": "nano-banana-2",
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-image-preview",
+    "aspect_ratio": "16:9",
+    "image_size": "2K",
+    "usd_per_image": 0.10,
+    "note": "Google direct, the cheaper Flash image model."
+  },
+  {
+    "name": "flux-2-pro",
+    "provider": "fal",
+    "endpoint": "fal-ai/flux-2-pro/edit",
+    "params": {"image_size": {"width": 2048, "height": 1024}},
+    "usd_per_image": 0.09,
+    "note": "Black Forest Labs via fal. Up to 9 reference images."
+  },
+  {
+    "name": "qwen-edit-2511",
+    "provider": "fal",
+    "endpoint": "fal-ai/qwen-image-edit-2511",
+    "params": {"image_size": {"width": 2048, "height": 1024}},
+    "usd_per_image": 0.06,
+    "note": "Open weights (Apache 2.0) via fal: the model we could self-host on a DigitalOcean GPU later."
+  },
+  {
+    "name": "seedream-5-lite",
+    "provider": "fal",
+    "endpoint": "fal-ai/bytedance/seedream/v5/lite/edit",
+    "params": {"image_size": {"width": 2048, "height": 1024}},
+    "usd_per_image": 0.035,
+    "note": "ByteDance via fal. Endpoint ID unconfirmed: check fal.ai/models if it 404s."
+  },
+  {
+    "name": "kontext-pro-fireworks",
+    "provider": "fireworks",
+    "model": "flux-kontext-pro",
+    "params": {"aspect_ratio": "16:9"},
+    "usd_per_image": 0.04,
+    "note": "Fireworks. One reference image only, so the style is described in words."
+  },
+  {
+    "name": "muse-image",
+    "provider": "openrouter",
+    "model": "meta/muse-image",
+    "enabled": false,
+    "usd_per_image": 0.01,
+    "note": "Meta via OpenRouter. Model ID unconfirmed: look it up on openrouter.ai/meta, then set enabled to true."
+  }
+]

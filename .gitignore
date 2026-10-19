@@ -1,0 +1,10 @@
+.env
+out/
+__pycache__/
+.venv/
+# children's photos never go in the repo
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.heic

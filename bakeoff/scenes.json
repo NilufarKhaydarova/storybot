@@ -1,0 +1,34 @@
+{
+  "title": "{name} and the Red Kite",
+  "outfit": "a mustard-yellow sweater with a small red kite on the chest, blue trousers and red sneakers",
+  "scenes": [
+    {
+      "id": "1-closeup",
+      "tests": "likeness in a close-up",
+      "scene": "{name} wakes up in a cosy bedroom at sunrise, sitting up in bed and stretching with a big sleepy smile. Seen from the waist up, face large and clearly visible.",
+      "text_side": "right",
+      "text": "Every morning, {name} woke up with the sun. But today was special. Today was kite day!"
+    },
+    {
+      "id": "2-action",
+      "tests": "full body in motion, outfit consistency",
+      "scene": "{name} runs across a green park in Tashkent in autumn, full body, mid-stride, holding the string of a bright red kite flying high in the sky. Golden plane trees around.",
+      "text_side": "left",
+      "text": "Up, up went the red kite, higher than the trees, higher than the birds."
+    },
+    {
+      "id": "3-two-characters",
+      "tests": "a second character without the hero changing",
+      "scene": "{name} sits on a park bench next to a kind grandmother in a colourful headscarf. They share a round loaf of Uzbek bread and look up at the red kite caught in the branches of a tall plane tree. Both full body, medium shot.",
+      "text_side": "right",
+      "text": "- Don't worry, - said Grandma. - Kites are like birds. Sometimes they need to rest."
+    },
+    {
+      "id": "4-night",
+      "tests": "likeness under different lighting and angle",
+      "scene": "Night. {name} lies on the bedroom floor in pyjamas, drawing a new kite with crayons by the warm light of a small lamp. Stars and a crescent moon in the window. Seen from slightly above.",
+      "text_side": "left",
+      "text": "That night, {name} drew a brand new kite. This one would fly even higher."
+    }
+  ]
+}
